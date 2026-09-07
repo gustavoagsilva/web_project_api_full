@@ -4,10 +4,8 @@ Aplicação React/Vite em `frontend/` e API Node.js/Express em `backend/`. O rep
 
 ## Endereços públicos
 
-- Frontend (Vercel): pendente de criação e configuração do domínio.
-- API (Render): pendente de criação e configuração do domínio.
-
-Os links reais serão adicionados após a implantação. O projeto ainda não está publicado.
+- Frontend (Vercel): [Acessar o site](https://web-project-api-full-ten.vercel.app).
+- API (Render): [Acessar a API](https://around-api-ltdr.onrender.com).
 
 ## Execução local
 
@@ -86,7 +84,7 @@ Antes do build, configure `VITE_API_BASE_URL` com a URL HTTPS real do backend, p
 
 Adicione o domínio do frontend na Vercel e o subdomínio da API no Render. Configure os registros DNS exatamente como indicado por cada plataforma e aguarde a confirmação e emissão dos certificados HTTPS. A hospedagem e o roteamento são gerenciados pelas plataformas, conforme a alternativa autorizada para o projeto.
 
-Depois de confirmar os domínios, atualize `VITE_API_BASE_URL`, publique o frontend novamente e substitua os campos pendentes no início deste README pelos links reais.
+Se configurar domínios personalizados, atualize `VITE_API_BASE_URL`, publique o frontend novamente e atualize os links no início deste README.
 
 ## Verificação e teste de falha
 
