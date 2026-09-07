@@ -40,7 +40,6 @@ app.use((req, res, next) => {
 
 app.use(errorLogger);
 app.use(errorHandler);
-console.log(MONGODB_URI);
 mongoose
   .connect(MONGODB_URI)
   .then(() => {
