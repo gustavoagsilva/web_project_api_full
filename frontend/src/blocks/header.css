@@ -1,0 +1,38 @@
+.header {
+  min-height: 120px;
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+.header__logo {
+  width: 173px;
+  height: 33px;
+  object-fit: contain;
+}
+
+.header__email {
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 70px;
+}
+
+.header__link-logout {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+
+@media screen and (max-width: 544px) {
+  .header {
+    min-height: 85px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin: 0 0 0 7px;
+  }
+}
